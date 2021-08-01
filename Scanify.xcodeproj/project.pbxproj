@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		398DAEC126B5C98C00DB272F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DAEC026B5C98C00DB272F /* AppDelegate.swift */; };
 		398DAEC326B5C98C00DB272F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DAEC226B5C98C00DB272F /* SceneDelegate.swift */; };
-		398DAEC526B5C98C00DB272F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DAEC426B5C98C00DB272F /* ContentView.swift */; };
 		398DAEC726B5C98F00DB272F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398DAEC626B5C98F00DB272F /* Assets.xcassets */; };
 		398DAECA26B5C98F00DB272F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398DAEC926B5C98F00DB272F /* Preview Assets.xcassets */; };
 		398DAECD26B5C98F00DB272F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398DAECB26B5C98F00DB272F /* LaunchScreen.storyboard */; };
 		398DAED826B5C98F00DB272F /* ScanifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DAED726B5C98F00DB272F /* ScanifyTests.swift */; };
 		398DAEE326B5C98F00DB272F /* ScanifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DAEE226B5C98F00DB272F /* ScanifyUITests.swift */; };
+		398DAEF726B5CA0A00DB272F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DAEF626B5CA0A00DB272F /* ContentView.swift */; };
+		398DAEF926B5CC0500DB272F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DAEF826B5CC0500DB272F /* CustomButton.swift */; };
+		398DAEFB26B5CF1100DB272F /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DAEFA26B5CF1100DB272F /* ResultView.swift */; };
+		398DAEFD26B5D06300DB272F /* DataBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DAEFC26B5D06300DB272F /* DataBox.swift */; };
+		398DAEFF26B5D09100DB272F /* KTPDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DAEFE26B5D09100DB272F /* KTPDataModel.swift */; };
+		398DAF0126B6443700DB272F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DAF0026B6443700DB272F /* ImagePicker.swift */; };
+		398DAF0326B6535E00DB272F /* ScanVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DAF0226B6535E00DB272F /* ScanVM.swift */; };
+		398DAF0626B6539300DB272F /* ExtractKTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DAF0526B6539300DB272F /* ExtractKTPService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,6 @@
 		398DAEBD26B5C98C00DB272F /* Scanify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scanify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		398DAEC026B5C98C00DB272F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		398DAEC226B5C98C00DB272F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		398DAEC426B5C98C00DB272F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		398DAEC626B5C98F00DB272F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		398DAEC926B5C98F00DB272F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		398DAECC26B5C98F00DB272F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		398DAEDE26B5C98F00DB272F /* ScanifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		398DAEE226B5C98F00DB272F /* ScanifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanifyUITests.swift; sourceTree = "<group>"; };
 		398DAEE426B5C98F00DB272F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398DAEF626B5CA0A00DB272F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		398DAEF826B5CC0500DB272F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		398DAEFA26B5CF1100DB272F /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		398DAEFC26B5D06300DB272F /* DataBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBox.swift; sourceTree = "<group>"; };
+		398DAEFE26B5D09100DB272F /* KTPDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTPDataModel.swift; sourceTree = "<group>"; };
+		398DAF0026B6443700DB272F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		398DAF0226B6535E00DB272F /* ScanVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanVM.swift; sourceTree = "<group>"; };
+		398DAF0526B6539300DB272F /* ExtractKTPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractKTPService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +113,12 @@
 		398DAEBF26B5C98C00DB272F /* Scanify */ = {
 			isa = PBXGroup;
 			children = (
+				398DAF0426B6536400DB272F /* NetworkServices */,
+				398DAEF326B5C9D900DB272F /* ViewModel */,
+				398DAEF226B5C9D000DB272F /* View */,
+				398DAEF126B5C9C600DB272F /* Model */,
 				398DAEC026B5C98C00DB272F /* AppDelegate.swift */,
 				398DAEC226B5C98C00DB272F /* SceneDelegate.swift */,
-				398DAEC426B5C98C00DB272F /* ContentView.swift */,
 				398DAEC626B5C98F00DB272F /* Assets.xcassets */,
 				398DAECB26B5C98F00DB272F /* LaunchScreen.storyboard */,
 				398DAECE26B5C98F00DB272F /* Info.plist */,
@@ -134,6 +151,58 @@
 				398DAEE426B5C98F00DB272F /* Info.plist */,
 			);
 			path = ScanifyUITests;
+			sourceTree = "<group>";
+		};
+		398DAEF126B5C9C600DB272F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				398DAEFE26B5D09100DB272F /* KTPDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		398DAEF226B5C9D000DB272F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				398DAEF526B5C9E900DB272F /* Component */,
+				398DAEF426B5C9E000DB272F /* Page */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		398DAEF326B5C9D900DB272F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				398DAF0226B6535E00DB272F /* ScanVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		398DAEF426B5C9E000DB272F /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				398DAEF626B5CA0A00DB272F /* ContentView.swift */,
+				398DAEFA26B5CF1100DB272F /* ResultView.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		398DAEF526B5C9E900DB272F /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				398DAEF826B5CC0500DB272F /* CustomButton.swift */,
+				398DAEFC26B5D06300DB272F /* DataBox.swift */,
+				398DAF0026B6443700DB272F /* ImagePicker.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		398DAF0426B6536400DB272F /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				398DAF0526B6539300DB272F /* ExtractKTPService.swift */,
+			);
+			path = NetworkServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +335,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398DAEF926B5CC0500DB272F /* CustomButton.swift in Sources */,
 				398DAEC126B5C98C00DB272F /* AppDelegate.swift in Sources */,
+				398DAF0326B6535E00DB272F /* ScanVM.swift in Sources */,
+				398DAEFF26B5D09100DB272F /* KTPDataModel.swift in Sources */,
+				398DAEFB26B5CF1100DB272F /* ResultView.swift in Sources */,
 				398DAEC326B5C98C00DB272F /* SceneDelegate.swift in Sources */,
-				398DAEC526B5C98C00DB272F /* ContentView.swift in Sources */,
+				398DAF0126B6443700DB272F /* ImagePicker.swift in Sources */,
+				398DAF0626B6539300DB272F /* ExtractKTPService.swift in Sources */,
+				398DAEF726B5CA0A00DB272F /* ContentView.swift in Sources */,
+				398DAEFD26B5D06300DB272F /* DataBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
